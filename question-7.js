@@ -11,3 +11,10 @@ const secondProductList = [
 ];
 
 // เริ่มเขียนโค้ดตรงนี้
+const newProductList = [...firstProductList, ...secondProductList];
+console.log(newProductList);
+/*- ให้เขียนโค้ดในการรวม Value ของ Array `firstProductList` 
+                                เข้ากับ `secondProductList`
+- จากนั้นให้นำผลลัพธ์ใส่ไว้ใน Variable ชื่อว่า `newProductList`
+- แล้วให้ Log เพื่อดู Value ของ `newProductList`
+*/
